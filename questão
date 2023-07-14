@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const num=parseInt(prompt("Numero: "))
+        if(num%3===0 && num%5===0){
+            alert(num+" é divisivel por 3 e por 5")
+        }else{
+            alert(num+" Não é divisivel por 3 e por 5")
+        }
+    </script>
+</body>
+</html>
